@@ -1,0 +1,21 @@
+<!--pages/jionedactivity/activity.wxml-->
+<import src="../../template/head.wxml" />
+<view class="container">
+    <template is="head" data="{{title: '已报名活动'}}"/>
+     <view class="page__bd">
+         <view class="weui-panel">
+            <view class="weui-panel__bd" wx:if="{{jions===null}}"> 还没有参加活动！</view>
+            <view class="weui-panel__bd" wx:for="{{jions}}">
+                <view class="weui-media-box weui-media-box_text">
+                    <view class="weui-media-box__title weui-media-box__title_in-text">{{item.Name}}</view>
+                    <view class="weui-media-box__desc">{{item.Status}}</view>
+                    <view class="weui-media-box__info">
+                        <view class="weui-media-box__info__meta">时间：{{item.Date}}</view>
+                        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">发起人:{{item.WhoBuild}}</view>
+                    </view>
+                </view>
+            </view>
+        </view>
+     </view>
+</view>
+

@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="contain">
+ <view class="page__hd">
+        <view class="page__title">学生登陆</view>
+  </view>
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_form">
+       <view class="weui-cell">
+        <view class="weui-cell__hd">
+        <label class="weui-label">用户名：</label></view>
+        <view class="weui-cell__bd">
+            <input class="weui-input" type="text" bindinput="setUsername" />
+        </view>
+        </view>
+        <view class="weui-cell">
+        <view class="weui-cell__hd">
+        <label class="weui-label">密码：</label></view>
+        <view class="weui-cell__bd">
+            <input class="weui-input" password bindinput="setPassword"/>
+        </view>
+        </view>
+    </view>
+        <view class="button-sp-area">
+            <button class="weui-btn" data-select="学生登陆" type="primary" bindtap="login">登陆</button>
+        </view>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+ <import src="../../template/head.wxml" />
+ <view class="container">
+ <view class="page__bd">
+    <template is="head" data="{{title: '个人信息'}}"/>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__hd">
+                    <image src="../../img/id.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">教育Id</view>
+                <view class="weui-cell__ft">{{stu.Id}}</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__hd">
+                    <image src="../../img/grade.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">年级</view>
+                <view class="weui-cell__ft">{{stu.Grade}}</view>
+            </view>
+              <view class="weui-cell">
+                <view class="weui-cell__hd">
+                    <image src="../../img/class.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">班级</view>
+                <view class="weui-cell__ft">{{stu.Class}}</view>
+            </view>
+              <view class="weui-cell">
+                <view class="weui-cell__hd">
+                    <image src="../../img/name.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">姓名</view>
+                <view class="weui-cell__ft">{{stu.Name}}</view>
+            </view>
+            <view class="weui-cell">
+                <view class="weui-cell__hd">
+                    <image src="../../img/gender.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+                </view>
+                <view class="weui-cell__bd">性别</view>
+                <view class="weui-cell__ft">{{stu.Gender}}</view>
+            </view>
+        </view>
+
+  </view>
+</view>

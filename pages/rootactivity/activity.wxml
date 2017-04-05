@@ -1,0 +1,10 @@
+<import src="../../template/activity.wxml"/>
+<import src="../../template/head.wxml" />
+
+<view class="container">
+    <template is="head" data="{{title: '学校活动'}}"/>
+    <view class="page__bd">
+    <view class="weui-panel__bd" wx:if="{{activities===null}}"> 还没有学校活动！</view>
+        <template is="activity" wx:for="{{activities}}" data="{{item}}"></template>
+    </view>
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/student/student",
+    "pages/jionedactivity/activity",
+    "pages/gradeactivity/activity",
+    "pages/classactivity/activity",
+    "pages/rootactivity/activity"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00CDCD",
+    "navigationBarTitleText": "广渠门中学志愿管理系统",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/student/student",
+        "text":"主页",
+        "iconPath":"img/home.png",
+        "selectedIconPath":"img/active.png"
+      },{
+        "pagePath":"pages/jionedactivity/activity",
+        "text":"参加活动",
+        "iconPath":"img/activity.png",
+        "selectedIconPath":"img/active.png"
+      },{
+        "pagePath":"pages/gradeactivity/activity",
+        "text":"年级活动",
+        "iconPath":"img/activity1.png",
+        "selectedIconPath":"img/active.png"
+      },{
+        "pagePath":"pages/classactivity/activity",
+        "text":"班级活动",
+        "iconPath":"img/activity2.png",
+        "selectedIconPath":"img/active.png"
+      },{
+        "pagePath":"pages/rootactivity/activity",
+        "text":"学校活动",
+        "iconPath":"img/activity3.png",
+        "selectedIconPath":"img/active.png"
+      }
+    ]
+  }
+}
